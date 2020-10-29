@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ui_person_recycle_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ui_person_recycle_circleImage"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/ui_person_recycle_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/ui_person_recycle_circleImage"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ui_person_recycle_tv_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ui_person_recycle_tv_name"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/ui_person_recycle_circleImage"
+        android:text="test"
+        android:textAlignment="textStart" />
+
+
+    <Button
+        android:id="@+id/ui_person_recycle_btn_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_btn_flow"
+        android:tag="1"
+        android:text="دنبال میکنم"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/ui_person_recycle_tv_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ui_person_recycle_btn_flow"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textAlignment="textStart" />
+
+</RelativeLayout>

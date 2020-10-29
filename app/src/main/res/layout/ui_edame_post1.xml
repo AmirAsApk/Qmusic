@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ui_edame_layout"
+    >
+<ImageView
+android:id="@+id/ui_edame_image"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/ic_person_black"
+    />
+
+    <TextView
+        android:id="@+id/ui_edame_tv_name_singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="this is test"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:id="@+id/ui_edame_tv_name_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is test"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        />
+    <TextView
+        android:id="@+id/ui_edame_tv_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="this is test"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+</LinearLayout>

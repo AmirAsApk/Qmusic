@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="10dp"
+
+    >
+
+    <TextView
+        android:id="@+id/ui_recycle_category_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_vazir"
+        android:text="text"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/ui_recycle_category_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_vazir"
+        android:text="text"
+        android:textAlignment="textStart"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/ui_recycle_category_tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_vazir"
+        android:text="text"
+        android:textAlignment="textStart"
+        android:textSize="15sp" />
+</LinearLayout>

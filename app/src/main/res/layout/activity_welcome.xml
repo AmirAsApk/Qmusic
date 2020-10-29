@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome"
+    android:id="@+id/activity_welcome_layout"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_welecome" />
+
+    <TextView
+        android:id="@+id/activity_welcome_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/activity_welcome_progress_bar"
+        android:fontFamily="@font/font_vazir"
+        android:text="در حال بررسی..."
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <ProgressBar
+        android:id="@+id/activity_welcome_progress_bar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:indeterminateTint="@android:color/white" />
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

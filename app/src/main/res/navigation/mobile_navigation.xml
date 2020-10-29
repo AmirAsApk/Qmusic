@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.qmusic.qmusic.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.qmusic.qmusic.ui.dashboard.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.qmusic.qmusic.ui.search.searchFragment"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/navigation_person"
+        android:name="com.qmusic.qmusic.ui.artist.PersonFragment"
+        tools:layout="@layout/fragment_person" />
+    <fragment
+        android:id="@+id/navigation_cinema"
+        android:name="com.qmusic.qmusic.ui.cinema.cinemaFragment"
+        tools:layout="@layout/fragment_category" />
+</navigation>

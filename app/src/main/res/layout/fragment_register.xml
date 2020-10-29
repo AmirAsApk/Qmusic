@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fragment_register_et_name"
+        style="@style/et_loginForm"
+        android:hint="نام و نام خوانوادگی "
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/fragment_register_et_email"
+        style="@style/et_loginForm"
+        android:hint="ایمیل "
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/fragment_register_et_numberPhone"
+        style="@style/et_loginForm"
+        android:hint="شماره تلفن"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/fragment_register_et_pass"
+        style="@style/et_loginForm"
+        android:hint="رمز ورود"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/fragment_register_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/font_vazir"
+        android:text="ورود"
+        android:textSize="23sp" />
+</LinearLayout>

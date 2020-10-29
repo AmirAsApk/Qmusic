@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Q Music</string>
+    <string name="title_home">خانه</string>
+    <string name="title_dashboard">دسته بندی</string>
+    <string name="title_search">جست و جو</string>
+    <string name="title_person">هنرمندان</string>
+    <string name="title_cinema">سینما</string>
+    <string name="app_name_f">کیو موزیک</string>
+    <string name="title_activity_login_form">LoginFormActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="setting_f">تنظیمات</string>
+    <string name="setting_user_f">تنظیمات نظرات</string>
+    <string name="setting_download_f">تنظیمات دانلود</string>
+    <string name="setting_playMusic_user_f">به صورت خودکار اهنگ بعدی پخش شود؟</string>
+    <string name="setting_khare_f">ساکن خارح کشور هستید؟</string>
+    <string name="setting_downlodapp_f">داناود از داخل برنامه ؟</string>
+    <string name="setting_halatBlack_f">حالت شب (مشکی مناسب برای فضایه تاریک)</string>
+    <string name="setting_halatBlue_f">حالت اب تیره</string>
+    <string name="setting_rahnma_f">با فعال سازی این گزینه شما از سرور های خارج از کشور دانلود میکنید که سرعت بیش تری دارند.</string>
+    <string name="email_user_f">ایمیل شما </string>
+    <string name="name_user_f">نام شما</string>
+    <string name="email_f">ایمیل</string>
+    <string name="nameAndFamily_f">نام ونام خوانوادگی</string>
+</resources>
